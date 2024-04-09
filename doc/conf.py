@@ -63,8 +63,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'STUDY_BLENDER'
-copyright = '2023'
+project = 'DRAGON DRONES'
+copyright = '2024'
 author = 'Zia'
 
 # The version info for the project you're documenting, acts as replacement for

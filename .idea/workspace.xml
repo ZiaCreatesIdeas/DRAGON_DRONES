@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf3d54-50ad-4257-b5f7-5feb550bfd38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc/conf.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/conf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -66,13 +75,13 @@
         <option value="$PROJECT_DIR$/doc/agenda.md" />
         <option value="$PROJECT_DIR$/doc/blankpage.md" />
         <option value="$PROJECT_DIR$/doc/index.rst" />
-        <option value="$PROJECT_DIR$/doc/conf.py" />
         <option value="$PROJECT_DIR$/doc/resources.md" />
         <option value="$PROJECT_DIR$/doc/Documenting-tips.md" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm.vmoptions" />
         <option value="$PROJECT_DIR$/doc/DonutTutorial.md" />
         <option value="$PROJECT_DIR$/doc/Credit.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/doc/conf.py" />
       </list>
     </option>
   </component>
@@ -207,13 +216,6 @@
     <entry file="file://$PROJECT_DIR$/doc/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/documentation.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -275,6 +277,13 @@
             <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
         </state>
       </provider>
     </entry>
