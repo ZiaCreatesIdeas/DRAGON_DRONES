@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf3d54-50ad-4257-b5f7-5feb550bfd38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/doc/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/DonutTutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DonutTutorial.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doc/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="1430">
               <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
             </state>
           </provider>
@@ -38,7 +39,19 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="154">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/DonutTutorial.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="824">
+                <caret line="69" column="86" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="86" />
               </first_editor>
               <second_editor />
             </state>
@@ -78,17 +91,17 @@
         <option value="$PROJECT_DIR$/doc/resources.md" />
         <option value="$PROJECT_DIR$/doc/Documenting-tips.md" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm.vmoptions" />
-        <option value="$PROJECT_DIR$/doc/DonutTutorial.md" />
         <option value="$PROJECT_DIR$/doc/Credit.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/conf.py" />
+        <option value="$PROJECT_DIR$/doc/DonutTutorial.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="447" />
-    <option name="y" value="138" />
-    <option name="width" value="1894" />
+    <option name="x" value="52" />
+    <option name="y" value="107" />
+    <option name="width" value="2303" />
     <option name="height" value="1241" />
   </component>
   <component name="ProjectView">
@@ -154,10 +167,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="447" y="138" width="1894" height="1241" extended-state="0" />
+    <frame x="52" y="107" width="2303" height="1241" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14095035" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115687996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -243,16 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DonutTutorial.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="682">
-            <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -270,20 +273,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="154">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+    <entry file="file://$PROJECT_DIR$/doc/DonutTutorial.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="824">
+            <caret line="69" column="86" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="86" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-# Donut Tutorial
+# Flight Controller
 
 ::::{important} 
 This is a companion guide to Blender Guru's foundational [Donut Tutorial](https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD)  
@@ -43,10 +43,9 @@ Installing Screencast Keys may be helpful in some later sections as one can matc
 ---
 
 
-## Trouble Shooting
+## GPS, Compass, GNNS module
 
-While learning Blender, one may get stuck in states which yield odd behaviour.  
-Should this occur at any time in one's learning journey, please refer to the list below.
+
 
 ```{admonition} Trouble Shooting Checklist
 :class: warning
@@ -58,7 +57,17 @@ This icon looks like two arrows located at the top middle of the screen. ![View 
 
 ```
 ---
+<style>
+  video {
+    width: 100%;
+  }
+</style>
+ 
+<video controls>
+<source src='https://youtu.be/aE5oVbBtlig?si=i2H1jmie3M1nu1Fm'>
+</video>   
 
+<iframe width="200" height="113" src="https://youtu.be/aE5oVbBtlig?si=i2H1jmie3M1nu1Fm?start=74&modestbranding=1&rel=0" title="Simready video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 
 
 
