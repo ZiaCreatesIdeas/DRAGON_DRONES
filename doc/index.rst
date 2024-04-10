@@ -10,8 +10,7 @@ Study Blender
 .. toctree::
    :maxdepth: 2
 
-   Hotkeys.md
-   DonutTutorial.md
+   Hardware.md
    Tips_Tricks.md
    Resources.md
    Credit.md

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9aaf3d54-50ad-4257-b5f7-5feb550bfd38" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/DonutTutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/DonutTutorial.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/DonutTutorial.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Hardware.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Hotkeys.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Hotkeys.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/DonutTutorial.md">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="824">
-                <caret line="69" column="86" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="86" />
+              <first_editor relative-caret-position="1100">
+                <caret line="50" selection-start-line="50" selection-end-line="50" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/index.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
     </leaf>
@@ -87,14 +94,14 @@
         <option value="$PROJECT_DIR$/doc/installation.rst" />
         <option value="$PROJECT_DIR$/doc/agenda.md" />
         <option value="$PROJECT_DIR$/doc/blankpage.md" />
-        <option value="$PROJECT_DIR$/doc/index.rst" />
         <option value="$PROJECT_DIR$/doc/resources.md" />
         <option value="$PROJECT_DIR$/doc/Documenting-tips.md" />
-        <option value="$APPLICATION_CONFIG_DIR$/pycharm.vmoptions" />
         <option value="$PROJECT_DIR$/doc/Credit.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/doc/conf.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/pycharm.vmoptions" />
         <option value="$PROJECT_DIR$/doc/DonutTutorial.md" />
+        <option value="$PROJECT_DIR$/doc/index.rst" />
       </list>
     </option>
   </component>
@@ -168,7 +175,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="107" width="2303" height="1241" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115687996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -226,9 +232,6 @@
     <entry file="file://$PROJECT_DIR$/doc/Images/workflow-yaml.png" />
     <entry file="file://$PROJECT_DIR$/doc/Images/copy_button/copy_button_02.png" />
     <entry file="file://$PROJECT_DIR$/doc/credit.rst" />
-    <entry file="file://$PROJECT_DIR$/doc/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.github/workflows/documentation.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -258,8 +261,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/pycharm.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="22">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -290,15 +293,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/DonutTutorial.md">
+    <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="824">
-            <caret line="69" column="86" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="86" />
+          <first_editor relative-caret-position="1100">
+            <caret line="50" selection-start-line="50" selection-end-line="50" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
