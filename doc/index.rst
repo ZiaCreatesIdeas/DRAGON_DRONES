@@ -11,7 +11,7 @@ Study Blender
    :maxdepth: 5
 
    Hardware.md
-   Tips_Tricks.md
+   WildFire_Use_Cases.md
    Resources.md
    Credit.md
    

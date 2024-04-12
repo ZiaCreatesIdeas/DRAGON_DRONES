@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf3d54-50ad-4257-b5f7-5feb550bfd38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/WildFire_Use_Cases.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/Hardware.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Hardware.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Tips_Tricks.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +53,25 @@
         <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="366">
-                <caret line="110" column="2" lean-forward="true" selection-start-line="109" selection-end-line="112" selection-end-column="4" />
+              <first_editor relative-caret-position="844">
+                <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/WildFire_Use_Cases.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="88">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,16 +119,18 @@
         <option value="$PROJECT_DIR$/doc/conf.py" />
         <option value="$APPLICATION_CONFIG_DIR$/pycharm.vmoptions" />
         <option value="$PROJECT_DIR$/doc/DonutTutorial.md" />
+        <option value="$PROJECT_DIR$/doc/Tips_Tricks.md" />
         <option value="$PROJECT_DIR$/doc/index.rst" />
+        <option value="$PROJECT_DIR$/doc/WildFire_Use_Cases.md" />
         <option value="$PROJECT_DIR$/doc/Hardware.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="157" />
-    <option name="y" value="126" />
-    <option name="width" value="2304" />
-    <option name="height" value="1241" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="26" />
+    <option name="width" value="2560" />
+    <option name="height" value="1342" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -174,7 +195,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
+    <frame x="-8" y="26" width="2560" height="1342" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10397794" />
@@ -199,9 +220,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/source/barplot.py" />
     <entry file="file://$PROJECT_DIR$/source/mode.py" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/doc/exercises.rst" />
     <entry file="file://$PROJECT_DIR$/_build/steps-needed.html" />
     <entry file="file://$PROJECT_DIR$/doc/Images/copy_button/copy_button_01.png" />
@@ -297,11 +315,24 @@
     <entry file="file://$PROJECT_DIR$/doc/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/WildFire_Use_Cases.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="88">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="366">
-            <caret line="110" column="2" lean-forward="true" selection-start-line="109" selection-end-line="112" selection-end-column="4" />
+          <first_editor relative-caret-position="844">
+            <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
           </first_editor>
           <second_editor />
         </state>
