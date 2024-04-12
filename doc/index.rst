@@ -8,7 +8,7 @@ Study Blender
 =============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 5
 
    Hardware.md
    Tips_Tricks.md

@@ -1,4 +1,22 @@
-# Hardware
+
+# AI
+## CLASSIFICATION
+
+---
+<div class="admonition note" name="html-admonition" style="background: lightgreen; padding: 10px">
+<p class="title"> </p>
+
+</div>
+
+### CAR CLASSIFIER
+Tag: #Edge Impulse, #Omniverse, #@DavidT
+
+[edge-impulse.gitbook.io](https://edge-impulse.gitbook.io/docs/integrations/nvidia-omniverse#installing-the-edge-impulse-omniverse-extension) | 
+[edge-impulse replicator](https://docs.edgeimpulse.com/experts/image-projects/nvidia-omniverse-replicator)
+    
+![edge-impulse]( https://edge-impulse.gitbook.io/~gitbook/image?url=https:%2F%2F873608574-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FEJB5OaeYjM5VSFEKLEFz%252Fuploads%252Fgit-blob-9334aa4961ab89a9db3c848938e45a6b702db066%252Fresearch-domain-rand.jpg%3Falt=media&width=768&dpr=1&quality=100&sign=c05e6c2afaed30df733385e00ee1add81a20fb9f4235183e489d97e17aa10850 "A cute cat")
+
+# HARDWARE
 
 ::::{important} 
 This is a companion guide to Blender Guru's foundational [Donut Tutorial](https://www.youtube.com/playlist?list=PLjEaoINr3zgFX8ZsChQVQsuDSjEqdWMAD)  
@@ -9,73 +27,117 @@ This is a companion guide to Blender Guru's foundational [Donut Tutorial](https:
 Videos for this tutorial are currently hosted on Dropbox which  
 limits their data and may result in a video not available error.
 
-%% :::{card} 
-%% ![Dropbox Error](./Images/Dropbox-Error/LinkOverload.jpg)
-%% :::
-
-If demand is high enough, we will increase the bandwidth or find a more suitable provider.
-
-```{note} Why make a tutorial of a tutorial?
-:class: warning
-- Proof of Work. This is a good way to document one's progress through complexity.
-- This is a form of a digital notebook.
-- This is a good exercise in reducing complexity into simplicity.
-- Recalling a small particular step, is a large sequence of steps, is difficult. 
-- This Donut Blender companion guide aims to act as a bridge, moving users from  
-  'no recall' to 'rote recall'.
-- This guide is meant to be a 'see-it-do-it' guide, without having to pause and rewind videos.
-- This tutorial supports step by step following along, using two monitors.  
-- This tutorial supports one screen setups and laptops by having vertical videos in some sections.  
-![Vertical Setup](./Images/Vertical_Screen_Setup/Vertical-Screen-Setup.jpg)
-- This companion guide covers Parts 01 - 10 at this time.
-- Sphinx Documentation's Search is only so-so, instead we suggest Cmd/Ctrl-F on the tutorial document.
-- This is an early release tutorial, please forgive typose, unclear text, etc.
-
-```
-
 :::{card} 
-The early tutorials use [**Short Cut VUr**](https://www.youtube.com/watch?v=Ombz2lDjZIA) to display keystrokes. Most of the time. 
-Later we use the [Screen Cast Addon](https://www.youtube.com/watch?v=6d_Lv6xN5bQ) which is recommended for greater reliability in documentating Hot keys, Pie and Pop-Up Menus. [Screencast Github](https://github.com/nutti/Screencast-Keys)  
-Installing Screencast Keys may be helpful in some later sections as one can match the on screen keys with one's own keys. A bit like the bouncing ball in Karaoke.
-
+ ![Dropbox Error](./Images/Dropbox-Error/LinkOverload.jpg)
 :::
 
 ---
 
-## Flight Controllers
-
+## FLIGHT CONTROLLERS
 ### Betaflight
 ### INav
 ### Ardupilot
 ### PX4
 
-## GPS, Compass, GNNS module
+## SENSORS
+### ACCELEROMETER
+### GYRO
+### GPS
+### MAGNETOMETER
+### CAMERAS
+#### FPV
+#### RECORD
+#### IR-INFRARED
+#### SWIR-SHORTWAVE IR
 
 
 
-```{admonition} Trouble Shooting Checklist
-:class: warning
-- [ ] **Turn Snapping Off (Shift + Tab)**
-- [ ] **Turn Proportional Editing Off (O)**
-- [ ] **Apply Scale (Ctrl + A)**
-- [ ] **Set Orientation Transformation Scale => Global**    
-This icon looks like two arrows located at the top middle of the screen. ![View Transformation Orientation Menu](./Images/Hot_Keys/View-Transformation-Orientation-Menu.jpg)
-
-```
 ---
-<style>
-  video {
-    width: 100%;
-  }
-</style>
- 
-<video controls>
-<source src='https://youtu.be/aE5oVbBtlig?si=i2H1jmie3M1nu1Fm'>
-</video>   
+<div class="admonition note" name="html-admonition" style="background: lightgreen; padding: 10px">
+<p class="title"> </p>
 
-<iframe width="200" height="113" src="https://youtu.be/aE5oVbBtlig?si=i2H1jmie3M1nu1Fm?start=74&modestbranding=1&rel=0" title="Simready video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/aE5oVbBtlig?si=deEEH0mGFChV804M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+---
+
+<div class="admonition note" name="html-admonition" style="background: lightgreen; padding: 10px">
+<p class="title"> </p>
+
+</div>
+
+#### SAR - SYNTHETIC APERATURE RADAR
+
+
+:::{card} 
+
+![Earthdata.nasa.gov](src "SAR")    
+[What is SAR?](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar)
+![Synthetic Aperature Radar](https://www.earthdata.nasa.gov/s3fs-public/imported/SARPolarization.jpg?VersionId=mSa4j.XwWY8P_9Y0fxw9Ycp0FjGxLDaY "SAR")
+
+:::
+
+:::{card}
+
+nisar.jpl.nasa.gov  
+Mission › Get to Know SAR 
+
+![nisar.jpl.nasa.gov](https://nisar.jpl.nasa.gov/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSXBNemxoWkRnek1UVXRNMkZpWVMwMFpHSTJMVGhpTVRJdE5qVXpZamd3TXpVM1l6ZG1Cam9HUlZRNkVHUnBjM0J2YzJsMGFXOXVTU0kvWVhSMFlXTm9iV1Z1ZERzZ1ptbHNaVzVoYldVOUlsTkJVakV1YW5Cbklqc2dabWxzWlc1aGJXVXFQVlZVUmkwNEp5ZFRRVkl4TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lBQVk3QmxRPSIsImV4cCI6IjIwMjQtMDQtMTJUMTI6MTA6MDUuOTIyWiIsInB1ciI6ImJsb2Jfa2V5In19--0a0902a03fcf8477521403177cb196268c9e5036/SAR1.jpg?content_type=&disposition=attachment%3B+filename%3D%22SAR1.jpg%22%3B+filename%2A%3DUTF-8%27%27SAR1.jpg "SAR Image")
+[https://nisar.jpl.nasa.gov/mission/get-to-know-sar](https://nisar.jpl.nasa.gov/mission/get-to-know-sar/overview/)
+
+:::
+
+---
+
+
+
+
+:::{card} 
+
+---
+<div class="admonition note" name="html-admonition" style="background: lightgreen; padding: 10px">
+<p class="title"> </p>
+
+</div>
+
+---
+
+
+#### SAR - SYNTHETIC APERATURE RADAR
+
+
+
+
+<br>
+<div style="background-color: lightgreen; padding: 10px;">
+</div>
+<br>
+
+---
+            
+- Earthdata.nasa.gove
+[What is SAR?](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar)
+![Synthetic Aperature Radar](https://www.earthdata.nasa.gov/s3fs-public/imported/SARPolarization.jpg?VersionId=mSa4j.XwWY8P_9Y0fxw9Ycp0FjGxLDaY "SAR")
+
+---
+
+- Nisar.jpl.nasa.gov  
+Mission › Get to Know SAR 
+
+![nisar.jpl.nasa.gov](https://nisar.jpl.nasa.gov/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSXBNemxoWkRnek1UVXRNMkZpWVMwMFpHSTJMVGhpTVRJdE5qVXpZamd3TXpVM1l6ZG1Cam9HUlZRNkVHUnBjM0J2YzJsMGFXOXVTU0kvWVhSMFlXTm9iV1Z1ZERzZ1ptbHNaVzVoYldVOUlsTkJVakV1YW5Cbklqc2dabWxzWlc1aGJXVXFQVlZVUmkwNEp5ZFRRVkl4TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lBQVk3QmxRPSIsImV4cCI6IjIwMjQtMDQtMTJUMTI6MTA6MDUuOTIyWiIsInB1ciI6ImJsb2Jfa2V5In19--0a0902a03fcf8477521403177cb196268c9e5036/SAR1.jpg?content_type=&disposition=attachment%3B+filename%3D%22SAR1.jpg%22%3B+filename%2A%3DUTF-8%27%27SAR1.jpg "SAR Image")
+[https://nisar.jpl.nasa.gov/mission/get-to-know-sar](https://nisar.jpl.nasa.gov/mission/get-to-know-sar/overview/)
+
+---
+
+:::
+
+<div class="admonition note" name="html-admonition" style="background: lightgreen; padding: 10px">
+<p class="title"> </p>
+
+</div>
+
+---
+
+
 
 ## Part 01: The Basics
 
