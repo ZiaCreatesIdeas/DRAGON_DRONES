@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf3d54-50ad-4257-b5f7-5feb550bfd38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/WildFire_Use_Cases.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/Hardware.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Hardware.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Tips_Tricks.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="844">
-                <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+              <first_editor relative-caret-position="809">
+                <caret line="87" selection-start-line="87" selection-end-line="87" />
               </first_editor>
               <second_editor />
             </state>
@@ -127,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="26" />
-    <option name="width" value="2560" />
-    <option name="height" value="1342" />
+    <option name="x" value="202" />
+    <option name="y" value="33" />
+    <option name="width" value="2314" />
+    <option name="height" value="1330" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -195,10 +192,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="26" width="2560" height="1342" extended-state="0" />
+    <frame x="202" y="33" width="2314" height="1330" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10397794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11513301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,9 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/index.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -328,11 +322,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="844">
-            <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+          <first_editor relative-caret-position="809">
+            <caret line="87" selection-start-line="87" selection-end-line="87" />
           </first_editor>
           <second_editor />
         </state>
