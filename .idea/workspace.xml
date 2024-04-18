@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf3d54-50ad-4257-b5f7-5feb550bfd38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/Pallette.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/Hardware.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Hardware.md" afterDir="false" />
     </list>
@@ -49,10 +50,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="809">
-                <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="908">
+                <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/Pallette.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="638">
+                <caret line="29" selection-start-line="29" selection-end-line="29" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/Hotkeys.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -119,15 +142,16 @@
         <option value="$PROJECT_DIR$/doc/Tips_Tricks.md" />
         <option value="$PROJECT_DIR$/doc/index.rst" />
         <option value="$PROJECT_DIR$/doc/WildFire_Use_Cases.md" />
+        <option value="$PROJECT_DIR$/doc/Pallette.md" />
         <option value="$PROJECT_DIR$/doc/Hardware.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="33" />
-    <option name="width" value="2314" />
-    <option name="height" value="1330" />
+    <option name="x" value="324" />
+    <option name="y" value="156" />
+    <option name="width" value="2241" />
+    <option name="height" value="1365" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -192,10 +216,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="33" width="2314" height="1330" extended-state="0" />
+    <frame x="324" y="156" width="2241" height="1365" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11513301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11891892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,11 +349,29 @@
     <entry file="file://$PROJECT_DIR$/doc/index.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc/Hotkeys.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/Pallette.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="638">
+            <caret line="29" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/doc/Hardware.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="809">
-            <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="908">
+            <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
           </first_editor>
           <second_editor />
         </state>

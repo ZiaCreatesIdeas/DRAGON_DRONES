@@ -1,4 +1,7 @@
 
+%% Pallete: [ red: #FFADAD, Orange: #FFD6A5, Yellow: #FDFFB6, Green: #CAFFBF, Aqua: #9BF6FF, Mild Blue: #A0C4FF, Purple Blue: #BDB2FF, Purple Pink: #FFC6FF, White: #FFFFFC ]
+
+
 # AI
 ## CLASSIFICATION
 
@@ -73,8 +76,27 @@ tag: #diff, #dump, #Painless360
 
 ### GPS & MAGNETOMETER
 
-- GPS and Compass Setup
-[https://github.com/iNavFlight/inav/wiki/GPS-and-Compass-setup](https://github.com/iNavFlight/inav/wiki/GPS-and-Compass-setup)
+
+:::{card} 
+
+Diagnostic Checklist for getting Barometer, Compass, and GPS Working.
+
+- []  
+
+
+
+:::
+
+
+- GPS and Compass Setup  
+[https://github.com/iNavFlight/inav/wiki/GPS-and-Compass-setup](https://github.com/iNavFlight/inav/wiki/GPS-and-Compass-setup)  
+From Sensei @ Inav  
+
+<p> </p>
+
+- How To Optimize GPS Receiver Settings in U-Center To Get More Satellite Locks  
+[gps-settings-u-center](https://oscarliang.com/gps-settings-u-center/)  
+Oscar Liang
 
 :::{card} 
 
@@ -83,7 +105,32 @@ Tags: #Painless360, Inav, Compass, FC, GPS Alignment
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kVVJ-DjUjsc?si=Qc01iB4wwlFaB9Eh&amp;start=537" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 :::
-  
+
+---
+
+<br>
+<div style="background-color: #FFD6A5; padding: 10px;">
+</div>
+<br>
+
+%% Pallete: [ red: #FFADAD, Orange: #FFD6A5, Yellow: #FDFFB6, Green: #CAFFBF, Aqua: #9BF6FF, Mild Blue: #A0CC4FF, Purple Blue: #BDB2FF, Purple Pink: #FFC6FF, White: #FFFFFC ]
+
+#### Betaflight: RTH, COMPASS DENIED
+
+- Oscar Liang
+[setup-gps-rescue-mode-betaflight](https://oscarliang.com/setup-gps-rescue-mode-betaflight/)
+
+<br>
+<div style="background-color: #A0C4FF; padding: 10px;">
+</div>
+<br>
+
+#### Inav: RTH, COMPASS DENIED
+
+%% Add background color.
+
+<div style="background-color: #A0C4FF"> 
+
 :::{card} 
 INAV 7.1 multi-rotor navigation without a compass  
 JetrellRC  
@@ -91,7 +138,11 @@ tags: #Inav, compass, no compass.
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iopZfH-DdTI?si=Qh9hk0zoNy40uyo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 :::  
   
+</div>
   
+
+<div style="background-color: #A0C4FF">  
+
 :::{card} 
 
 INAV 7.1 NO COMPASS REQUIRED  
@@ -100,11 +151,29 @@ Daniel Singer
 
 :::
 
+</div>
+
+#### Inav: Black Box Explorer
+
+
+
 ---
 
-%% ### MAGNETOMETER
+### LIDAR
 
-%% ---
+:::{card}
+
+#### Diff
+ 
+<div style="background-color: lightblue; padding: 10px;">
+</div>
+ 
+---
+
+tag: #diff, #dump, #Painless360
+<iframe width="560" height="315" src="https://youtu.be/bEKm-PGRnks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
 
 ### CAMERAS
 
