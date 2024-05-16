@@ -4,7 +4,7 @@
    table of contents
 
 
-Study Blender
+Study Drones
 =============
 
 .. toctree::
