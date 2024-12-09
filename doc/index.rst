@@ -11,6 +11,7 @@ Study Drones
    :maxdepth: 5
 
    Hardware.md
+   3d_Printing.md
    WildFire_Use_Cases.md
    Resources.md
    Credit.md
