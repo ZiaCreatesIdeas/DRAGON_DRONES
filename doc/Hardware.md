@@ -1,6 +1,7 @@
 
 %% Pallete: [ red: #FFADAD, Orange: #FFD6A5, Yellow: #FDFFB6, Green: #CAFFBF, Aqua: #9BF6FF, Mild Blue: #A0C4FF, Purple Blue: #BDB2FF, Purple Pink: #FFC6FF, White: #FFFFFC ]
 
+<meta http-equiv="Content-Security-Policy" content="frame-src 'self' *.youtube.com *.youtube-nocookie.com;">
 
 # AI
 ## CLASSIFICATION
@@ -235,6 +236,13 @@ tag: #diff, #dump, #Painless360
 
 :::
 
+
+:::{card}
+<div class="admonition note" name="html-admonition" style="background: lightblue; padding: 10px">
+<p class="title"> </p>
+
+</div>
+:::
 
 :::{card}
 <div class="admonition note" name="html-admonition" style="background: lightblue; padding: 10px">
