@@ -49,8 +49,22 @@ tag: #diff, #dump, #Painless360
 ### Ardupilot
 ### PX4
 
+---
+
 ## VIDEO
+
 ### Goggles
+
+:::{card} 
+Josh Bardwell, Tutorial Build Using GogglesX  
+tags: #GogglesX.
+<iframe width="560" height="315" src="https://youtu.be/5PWL68Y1Fvs?t=99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::  
+
+[Bardwell Tutorial Build Using Goggles X](https://youtu.be/5PWL68Y1Fvs?t=99)
+
+/5PWL68Y1Fvs?si=XOzo23u4tEt0XjfA&amp;start=99" 
+
 ### Vtx (Video Tx)
 
 
@@ -205,13 +219,6 @@ tag: #diff, #dump, #Painless360
 [What is SAR?](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar)
 ![Synthetic Aperature Radar](https://www.earthdata.nasa.gov/s3fs-public/imported/SARPolarization.jpg?VersionId=mSa4j.XwWY8P_9Y0fxw9Ycp0FjGxLDaY "SAR")
 
-:::
-
-:::{card}
-
-nisar.jpl.nasa.gov  
-Mission › Get to Know SAR 
-
 ![nisar.jpl.nasa.gov](https://nisar.jpl.nasa.gov/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSXBNemxoWkRnek1UVXRNMkZpWVMwMFpHSTJMVGhpTVRJdE5qVXpZamd3TXpVM1l6ZG1Cam9HUlZRNkVHUnBjM0J2YzJsMGFXOXVTU0kvWVhSMFlXTm9iV1Z1ZERzZ1ptbHNaVzVoYldVOUlsTkJVakV1YW5Cbklqc2dabWxzWlc1aGJXVXFQVlZVUmkwNEp5ZFRRVkl4TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lBQVk3QmxRPSIsImV4cCI6IjIwMjQtMDQtMTJUMTI6MTA6MDUuOTIyWiIsInB1ciI6ImJsb2Jfa2V5In19--0a0902a03fcf8477521403177cb196268c9e5036/SAR1.jpg?content_type=&disposition=attachment%3B+filename%3D%22SAR1.jpg%22%3B+filename%2A%3DUTF-8%27%27SAR1.jpg "SAR Image")
 [https://nisar.jpl.nasa.gov/mission/get-to-know-sar](https://nisar.jpl.nasa.gov/mission/get-to-know-sar/overview/)
 
@@ -221,45 +228,22 @@ Mission › Get to Know SAR
 
 :::{card} 
 
-
 <div class="admonition note" name="html-admonition" style="background: lightblue; padding: 10px">
 <p class="title"> </p>
 
 </div>
-
-
-#### SAR - SYNTHETIC APERATURE RADAR
-
-
-<div class="admonition note" name="html-admonition" style="background: lightblue; padding: 10px">
-<p class="title"> </p>
-
-</div>
-
----
-            
-- Earthdata.nasa.gove
-[What is SAR?](https://www.earthdata.nasa.gov/learn/backgrounders/what-is-sar)
-![Synthetic Aperature Radar](https://www.earthdata.nasa.gov/s3fs-public/imported/SARPolarization.jpg?VersionId=mSa4j.XwWY8P_9Y0fxw9Ycp0FjGxLDaY "SAR")
-
----
-
-- Nisar.jpl.nasa.gov  
-Mission › Get to Know SAR 
-
-![nisar.jpl.nasa.gov](https://nisar.jpl.nasa.gov/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9JYTJWNVNTSXBNemxoWkRnek1UVXRNMkZpWVMwMFpHSTJMVGhpTVRJdE5qVXpZamd3TXpVM1l6ZG1Cam9HUlZRNkVHUnBjM0J2YzJsMGFXOXVTU0kvWVhSMFlXTm9iV1Z1ZERzZ1ptbHNaVzVoYldVOUlsTkJVakV1YW5Cbklqc2dabWxzWlc1aGJXVXFQVlZVUmkwNEp5ZFRRVkl4TG1wd1p3WTdCbFE2RVdOdmJuUmxiblJmZEhsd1pVa2lBQVk3QmxRPSIsImV4cCI6IjIwMjQtMDQtMTJUMTI6MTA6MDUuOTIyWiIsInB1ciI6ImJsb2Jfa2V5In19--0a0902a03fcf8477521403177cb196268c9e5036/SAR1.jpg?content_type=&disposition=attachment%3B+filename%3D%22SAR1.jpg%22%3B+filename%2A%3DUTF-8%27%27SAR1.jpg "SAR Image")
-[https://nisar.jpl.nasa.gov/mission/get-to-know-sar](https://nisar.jpl.nasa.gov/mission/get-to-know-sar/overview/)
-
----
 
 :::
 
-<div class="admonition note" name="html-admonition" style="background: lightgreen; padding: 10px">
+
+:::{card}
+<div class="admonition note" name="html-admonition" style="background: lightblue; padding: 10px">
 <p class="title"> </p>
 
 </div>
+:::
+    
 
----
 
 
 

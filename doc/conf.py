@@ -64,7 +64,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'DRAGON DRONES'
-copyright = '2024'
+copyright = '2025'
 author = 'Zia'
 
 # The version info for the project you're documenting, acts as replacement for
