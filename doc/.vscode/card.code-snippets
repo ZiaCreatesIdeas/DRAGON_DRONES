@@ -8,7 +8,7 @@
 	// Example:
 	"Print to console": {
 		"scope": "markdown,javascript,typescript",
-		"prefix": "cya",
+		"prefix": "card",
 		"body": [
 			":::{card}" 
 				"<div class=\"admonition note\" name=\"html-admonition\" style=\"background: lightblue; padding: 10px\">"
