@@ -170,10 +170,11 @@ Daniel Singer
 ### LIDAR
 
 :::{card}
-<div class="admonition note" name="html-admonition" style="background: lightblue; padding: 10px">
-<p class="title"> </p>
-    [Amazon Benewake TF-Luna LiDAR Module Range Finder Sensor Single-Point Micro Ranging Module for Arduino Pixhawk](https://www.amazon.com/Benewake-TF-Luna-Single-Point-Ranging-Interface/dp/B086MJQSLR)
-</div>
+
+![Benewake](https://m.media-amazon.com/images/I/71dCpa5v9IL._SX522_.jpg)
+
+[Amazon Benewake TF-Luna LiDAR Module Range Finder Sensor Single-Point Micro Ranging Module for Arduino Pixhawk](https://www.amazon.com/Benewake-TF-Luna-Single-Point-Ranging-Interface/dp/B086MJQSLR)
+
 :::
 
 
