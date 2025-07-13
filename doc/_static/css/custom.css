@@ -1,0 +1,132 @@
+body,
+.wy-nav-content {
+  background-color: #141414 !important; /* black background */
+  color: #f0f6f2 !important; /* white text for contrast */
+} 
+
+/* This is where the MAIN Vertical Strip of Content is styled */
+.rst-content {
+  background-color: #141414 !important;
+  /* background-color: #faf6f6 !important; */
+  color: #fff !important;
+  /* padding: 0; */
+}
+
+/* Increase sidebar width if needed -- This messed up my index.rst spacing -- not recommended */
+/* .wy-nav-side {
+  width: 250px !important;  /* Default is about 220-230px, increase as needed */
+  overflow-x: visible !important; /* Prevent horizontal cropping */
+  padding-left: 120px !important;  /* Add some left padding */
+  background-color: #181918 !important;  /* Black background */
+} 
+
+*/
+
+/* The SEARCH Bar area */
+.wy-side-nav-search {
+  display: block;
+  width: 300px;
+  padding: .809em;
+  margin-bottom: .809em;
+  z-index: 200;
+  background-color: #2980b9;
+  /* background-color: #b629b9; */
+  text-align: center;
+  color: #fcfcfc;
+}
+
+/* Ensure sidebar content is not clipped */
+.wy-nav-content {
+  overflow-x: visible !important;
+  /* background-color: #14c452 !important; black background */
+}
+
+.wy-side-scroll {
+  overflow-x: visible !important;  /* Prevent inner scrolling from cropping */
+  background-color: #063043 !important; black background
+
+}
+
+
+/* Target the expand/collapse ICONS in the RTD theme sidebar */
+.wy-menu-vertical .toctree-expand {
+  color: rgb(127, 179, 243) !important;        /* Change icon color of '+' */
+  font-size: 1.5em !important;  /* Make icons larger */
+  font-weight: bold !important; /* Make icons bold */
+  display: inline !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  padding-left: 20px !important;  /* Add some left padding */
+  padding-right: 10px !important;  /* Add some right padding */
+}
+
+
+/* Level 2 submenu background and link color */
+.wy-menu-vertical .toctree-l2 > a {
+  background-color: #222 !important; /* Change to your desired color */
+  color: #fff !important;            /* Change to your desired text color */
+}
+
+/* Level 3 submenu background and link color */
+.wy-menu-vertical .toctree-l3 > a {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+/* Level 4 submenu background and link color */
+.wy-menu-vertical .toctree-l4 > a {
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+body.wy-nav-shift .wy-nav-content {
+  margin-left: 1260px !important; /* match your sidebar width */
+}
+
+
+/* Optional: Adjust link colors for better contrast */
+a {
+    color: #3f8ac4 !important;
+}
+a:visited {
+    /* color: #aaccff !important; */
+    color: #e3e8f0 !important;
+} */
+
+/* --- Your special link rule (add near the end) --- */
+.no-visited-color:visited {
+  color: #e5e9ee !important;
+  /* color: inherit !important; /* Or your preferred color */
+}
+
+/* 
+tr {
+  background-color: #ceb519 !important;
+  color: #222 !important;
+} */
+
+/* Unable to effect Odd row to be anything other then white */
+
+/* Header row COLOR and Header TEXT color */
+.rst-content table.docutils th {
+  background-color: #a5a3a3 !important;  /* Header row color */
+  color: #242324 !important;
+} 
+
+/* Odd Rows */
+.rst-content table.docutils tr:nth-child(odd) {
+  background-color: #e7e3e3 !important;  /* Light gray */
+  color: #222 !important;                 /* Dark text */
+}
+
+/* EVEN rows */
+.rst-content table.docutils tr:nth-child(even) {
+  background-color: #e2dfdf !important;  /* Slightly darker gray */
+}
+
+/* Color of TEXT for table, exempting Header */
+.rst-content table.docutils td {
+  color: #222 !important;  /* Change #222 to any color you want */
+} 
+
+
