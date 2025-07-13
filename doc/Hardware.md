@@ -58,14 +58,31 @@ tag: #diff, #dump, #Painless360
 ### Goggles
 
 :::{card} 
+
 Josh Bardwell, Tutorial Build Using GogglesX  
 tags: #GogglesX.
+
 <iframe width="560" height="315" src="https://youtu.be/5PWL68Y1Fvs?t=99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 :::  
 
 [Bardwell Tutorial Build Using Goggles X](https://youtu.be/5PWL68Y1Fvs?t=99)
 
-/5PWL68Y1Fvs?si=XOzo23u4tEt0XjfA&amp;start=99" 
+%% Embed Bardwell
+
+--
+
+
+:::{card}
+<div class="admonition note" name="html-admonition" style="background: lightblue; padding: 10px">
+<p class="title"> </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5PWL68Y1Fvs?si=PxDi2htea8MdvGBS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>ß
+</div>
+:::
+
+end test
+
+--
 
 ### Vtx (Video Tx)
 

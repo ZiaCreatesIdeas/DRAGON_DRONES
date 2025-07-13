@@ -22,6 +22,9 @@ import sys
 sys.path.insert(0, os.path.abspath('../source'))
 
 
+
+
+
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
@@ -34,6 +37,14 @@ sys.path.insert(0, os.path.abspath('../source'))
 
 # myst-parser, tells myst to recognize H1..H3 headings.
 # which can be referenced by: [](#my-heading)
+
+
+# include _static directory
+html_static_path = ['_static']
+html_css_files = ['custom.css']
+html_js_files = ['keep-menus-open.js']
+
+
 myst_heading_anchors = 4
 
 extensions = [

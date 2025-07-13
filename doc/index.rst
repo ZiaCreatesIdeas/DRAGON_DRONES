@@ -3,6 +3,10 @@
    in this index.rst for them to be rendered and added to the
    table of contents
 
+.. raw:: html
+
+   <a href="https://example.com" class="no-visited-color">This link will not change color when visited</a>
+
 
 Study Drones
 =============

@@ -24,5 +24,4 @@ As of 2024, there are three basic substitutable print options.
 
 
 
-          | **Ctrl + Space** <td style="text-align: center">**Maximize Window**</td> | |
 
