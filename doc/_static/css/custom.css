@@ -47,6 +47,12 @@ body,
 
 }
 
+/* Color of NEXT button */
+.rst-footer-buttons .btn.btn-neutral[accesskey="n"] {
+  background-color: #063043 !important;
+  color: #FFFFFF !important;
+}
+
 
 /* Target the expand/collapse ICONS in the RTD theme sidebar */
 .wy-menu-vertical .toctree-expand {
@@ -83,11 +89,17 @@ body.wy-nav-shift .wy-nav-content {
   margin-left: 1260px !important; /* match your sidebar width */
 }
 
+a:link {
+  color: #9f0d67; /* default blue */
+}
 
 /* Optional: Adjust link colors for better contrast */
 a {
-    color: #3f8ac4 !important;
+    color: #7DF9FF !important;
 }
+
+
+
 a:visited {
     /* color: #aaccff !important; */
     color: #e3e8f0 !important;
@@ -128,5 +140,8 @@ tr {
 .rst-content table.docutils td {
   color: #222 !important;  /* Change #222 to any color you want */
 } 
+
+
+
 
 

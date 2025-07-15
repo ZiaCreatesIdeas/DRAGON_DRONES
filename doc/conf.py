@@ -130,14 +130,6 @@ html_static_path = ['_static']
 def setup(app):
     app.add_css_file('css/custom.css')  # Note the 'css/' prefix!
 
-
-
-
-
-
-
-
-
 # def setup(app):
 #     app.add_css_file('mytheme.css')
 

@@ -1,8 +1,8 @@
 
 %% Pallete: [ red: #FFADAD, Orange: #FFD6A5, Yellow: #FDFFB6, Green: #CAFFBF, Aqua: #9BF6FF, Mild Blue: #A0C4FF, Purple Blue: #BDB2FF, Purple Pink: #FFC6FF, White: #FFFFFC ]
 
-// Tag for fixing csp problem on page, but doesn't work to make yt embeds available in the page
-//<meta http-equiv="Content-Security-Policy" content="frame-src 'self' *.youtube.com *.youtube-nocookie.com;">
+# Tag for fixing csp problem on page, but doesn't work to make yt embeds available in the page
+#<meta http-equiv="Content-Security-Policy" content="frame-src 'self' *.youtube.com *.youtube-nocookie.com;">
 
 # AI
 ## CLASSIFICATION
@@ -80,7 +80,6 @@ tags: #GogglesX.
 </div>
 :::
 
-end test
 
 --
 
@@ -99,19 +98,27 @@ end test
 
 ---
 
+<br>
+<div style="background-color: #A0C4FF; padding: 10px;">
+</div>
+<br>
+
 ### GPS & MAGNETOMETER
 
+<div style="background-color: #A0C4FF; padding: 10px;">
+</div>
+<br>
 
-:::{card} 
+#### Vifly Gps Mate
+[Youtube Wiring Diagram](https://youtu.be/G9SVh4PaWWg?t=387)
 
-Diagnostic Checklist for getting Barometer, Compass, and GPS Working.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G9SVh4PaWWg?si=VghXAUA__WJxiw5w&amp;start=391" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- []  
+![Vifly Gps Mate Wiring Diagram](Images/Sensors/GNSS/Vifly Gps Mate/GPS with Compass - Solder.png)
 
+![Vifly Gps Mate with Solder and With Compass](Images/Sensors/GNSS/Vifly_Gps_Mate/GPS_With_Compass-Solder.png)
 
-
-:::
-
+![PhotoVifly Gps Mate with Plug and no Compass](images/Sensors/GNSS/Vifly_Gps_Mate/Vifly_Gps_Mate_No_Compass-Plug.png)
 
 - GPS and Compass Setup  
 [https://github.com/iNavFlight/inav/wiki/GPS-and-Compass-setup](https://github.com/iNavFlight/inav/wiki/GPS-and-Compass-setup)  
@@ -204,8 +211,11 @@ Daniel Singer
  
 ---
 
-tag: #diff, #dump, #Painless360
-<iframe width="560" height="315" src="https://youtu.be/bEKm-PGRnks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Painless360 Diff](https://youtu.be/bEKm-PGRnks)
+
+link
+
+
 
 :::
 
