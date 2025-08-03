@@ -1,8 +1,8 @@
 # CRASH LOG
 
 
-:::{card}
-This is card content.
+::: card {class="card-blue"}
+This card has a blue background.
 :::
 
 

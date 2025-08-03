@@ -1,13 +1,15 @@
 body,
 .wy-nav-content {
   background-color: #141414 !important; /* black background */
+  /* background-color: #8f8a8a !important; */
   color: #f0f6f2 !important; /* white text for contrast */
 } 
 
 /* This is where the MAIN Vertical Strip of Content is styled */
 .rst-content {
   background-color: #141414 !important;
-  /* background-color: #faf6f6 !important; */
+  /* background-color:#4c4b4b !important; */
+  /* background-color: #8f8a8a !important; */
   color: #fff !important;
   /* padding: 0; */
 }
@@ -101,12 +103,12 @@ body.wy-nav-shift .wy-nav-content {
 
 
 a:link {
-  color: #1E90FF; /* default blue */
+  color: #ebeff3; /* default blue */
 }
 
 a:visited {
     /* color: #aaccff !important; */
-    color: #9B59B6 !important;
+    color: #ab59cc !important;
 } 
 
 /* Underline matches default color */
@@ -164,13 +166,44 @@ p {
 } 
 
 /* Color Cards */
-div.sphinx-design-card,
-div.sphinx-design-card > div {
-    background-color: #b23d3d !important;
-    color: #eee !important;  /* To ensure text is readable */
-    border-radius: 8px;      /* Optional: round corners */
-    padding: 1em;            /* Optional: inner spacing */
+/* Target both the card container and the immediate inner div for ReadTheDocs theme + Sphinx Design */
+
+/* Target card content inside .custom-card */
+
+/* Custom style for MyST card blocks */
+/* This sets the overall card appearance */
+
+.sd-card {
+  border: 1px solid #c22121;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* This sets the background color and padding for the content area */
+
+
+/*
+ * The selectors can be written together without spaces,
+ * which means all classes must be on the same element.
+ */
+ .sd-card.sd-sphinx-override.sd-mb-3.sd-shadow-sm.docutils {
+  color: #ffffff  !important;
+  border-radius: 8px !important;
+  background-color: #2980b9; /* Your desired background color */
+  border: 1px solid #41aff8; /* Your desired border style */
+ /* box-shadow: 0 4px 12px rgba(140, 165, 236, 0.5) !important; /* Does not work w/o !important */
+  /* box-shadow: 0px 0px 0px 20px rgb(5, 118, 45) !important;  */
+  /* A slightly stronger shadow */
+  /* Add any other styles you want to override */
+    box-shadow:
+      5px 5px 8px 2px #013212,    /* bright green glow */
+      5px 7px 15px 1px #7661dc !important;    /* softer green halo */ 
+      /* inset 5px 5px 10px #0c6317 */ /* inner green glow */
+  
+}
+
+
+
 
 
 
