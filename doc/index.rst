@@ -12,12 +12,15 @@ Study Drones
 =============
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 6
+   :caption: Contents
 
    Hardware.md
+   Crash_Log.md
    3d_Printing.md
    WildFire_Use_Cases.md
    Resources.md
    Credit.md
+   Test.md
    
    

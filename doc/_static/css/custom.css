@@ -15,10 +15,10 @@ body,
 /* Increase sidebar width if needed -- This messed up my index.rst spacing -- not recommended */
 /* .wy-nav-side {
   width: 250px !important;  /* Default is about 220-230px, increase as needed */
-  overflow-x: visible !important; /* Prevent horizontal cropping */
-  padding-left: 120px !important;  /* Add some left padding */
-  background-color: #181918 !important;  /* Black background */
-} 
+ /* overflow-x: visible !important; /* Prevent horizontal cropping */
+ /* padding-left: 120px !important;  /* Add some left padding */
+ /* background-color: #181918 !important;  /* Black background */
+/*} 
 
 */
 
@@ -41,9 +41,16 @@ body,
   /* background-color: #14c452 !important; black background */
 }
 
+/* Color Picker for Markdown */
+
+/* .wy-side-scroll {
+  overflow-x: visible !important;  
+  background-color: #04202d !important; 
+} */
+
 .wy-side-scroll {
   overflow-x: visible !important;  /* Prevent inner scrolling from cropping */
-  background-color: #063043 !important; black background
+  background-color: #063043 !important; 
 
 }
 
@@ -52,7 +59,6 @@ body,
   background-color: #063043 !important;
   color: #FFFFFF !important;
 }
-
 
 /* Target the expand/collapse ICONS in the RTD theme sidebar */
 .wy-menu-vertical .toctree-expand {
@@ -65,7 +71,6 @@ body,
   padding-left: 20px !important;  /* Add some left padding */
   padding-right: 10px !important;  /* Add some right padding */
 }
-
 
 /* Level 2 submenu background and link color */
 .wy-menu-vertical .toctree-l2 > a {
@@ -89,33 +94,50 @@ body.wy-nav-shift .wy-nav-content {
   margin-left: 1260px !important; /* match your sidebar width */
 }
 
-a:link {
-  color: #9f0d67; /* default blue */
-}
-
 /* Optional: Adjust link colors for better contrast */
-a {
+/* a {
     color: #7DF9FF !important;
+} */
+
+
+a:link {
+  color: #1E90FF; /* default blue */
 }
-
-
 
 a:visited {
     /* color: #aaccff !important; */
-    color: #e3e8f0 !important;
-} */
+    color: #9B59B6 !important;
+} 
+
+/* Underline matches default color */
+a {
+  /* color: #baee0d; CANNOT specify color of underline directly - that I can tell. */
+  text-decoration: underline;
+}
+
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+
 
 /* --- Your special link rule (add near the end) --- */
+/* 
 .no-visited-color:visited {
   color: #e5e9ee !important;
   /* color: inherit !important; /* Or your preferred color */
-}
-
-/* 
-tr {
-  background-color: #ceb519 !important;
-  color: #222 !important;
 } */
+
+/* USE THIS FOR PALLETTE TESTING: */
+
+/* tr {
+  background-color: #ceb519 !important;
+  color: #30282f !important;
+} */
+
 
 /* Unable to effect Odd row to be anything other then white */
 
@@ -140,6 +162,17 @@ tr {
 .rst-content table.docutils td {
   color: #222 !important;  /* Change #222 to any color you want */
 } 
+
+/* Color Cards */
+div.sphinx-design-card,
+div.sphinx-design-card > div {
+    background-color: #b23d3d !important;
+    color: #eee !important;  /* To ensure text is readable */
+    border-radius: 8px;      /* Optional: round corners */
+    padding: 1em;            /* Optional: inner spacing */
+}
+
+
 
 
 
