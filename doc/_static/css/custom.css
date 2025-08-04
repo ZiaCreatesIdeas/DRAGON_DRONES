@@ -222,14 +222,14 @@ a:visited {
 
 .wy-table-responsive table th,
 .wy-table-responsive table td {
-  border: 1px solid #486988 !important; /* subtle steel blue border */
+  border: 1px solid #6483a1 !important; /* subtle steel blue border */
   padding: 8px !important;
 }
 
 /* Table Header */
 .wy-table-responsive table thead th {
-  background-color: #3f72af !important; /* strong light blue header */
-  color: #f9be60 !important;            /* very light text */
+  background-color: #2a4c74 !important; /* strong light blue header */
+  color: #7DF9FF !important;            /* very light text */
 }
 
 /* Table Odds */
@@ -240,9 +240,10 @@ a:visited {
 }
 
 /* Table Evens */
-.wy-table-responsive table tbody tr:nth-child(even) {
-  background-color: #2e4050 !important; /* slightly lighter navy */
-  color: #cbd6e6 !important;
+.wy-table-responsive table tbody tr:nth-child(even),
+.wy-table-responsive table tbody tr:nth-child(even) td {
+  background-color: #374c5d !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
 }
 
 /* Table Hover */
@@ -254,37 +255,79 @@ a:visited {
 
 /* End Table Prime----- */
 
-/* Table - Secondary */
+/* Table - Secondary with .wy-table-responsive colors */
 
 .my-table-wrapper table {
+  background-color: #1f2428 !important; /* Dark slate background */
+  color: #d1ff7d !important;            /* Light cool text */
   border-collapse: collapse !important;
-  border: 1px solid #486988 !important;
+  border: 1px solid #3a4756 !important; /* muted dark border */
   width: 100% !important;
 }
 
 .my-table-wrapper th,
 .my-table-wrapper td {
-  border: 1px solid #6d0f1b !important;
+  border: 1px solid #486988 !important; /* subtle steel blue border */
   padding: 8px !important;
   color: #7DF9FF !important;
 }
 
-.my-table-wrapper thead th {
-  background-color: #7e1125 !important;
+.my-table-wrapper table thead th {
+  background-color: #4f311c !important; /* strong light blue header */
+  color: #d6a00b !important;            /* very light text */
 }
 
-.my-table-wrapper tbody tr:nth-child(odd) {
-  background-color: #640a0a !important;
+.my-table-wrapper table tbody tr:nth-child(odd),
+.my-table-wrapper table tbody tr:nth-child(odd) td {
+  background-color: #27323b !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
 }
 
-.my-table-wrapper tbody tr:nth-child(even) {
-  background-color: #6e0b0f !important;
+.my-table-wrapper table tbody tr:nth-child(even),
+.my-table-wrapper table tbody tr:nth-child(even) td {
+  background-color: #374c5d !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
 }
 
-.my-table-wrapper tbody tr:hover {
-  background-color: #6c0c2a !important;
+.my-table-wrapper table tbody tr:hover,
+.my-table-wrapper table tbody tr:hover td {
+  background-color: #466d4f !important; /* slightly lighter navy */
   color: #ffffff !important;
 }
+
+/* End Secondary Color */
+
+/* Colors for individual spans of text */
+
+/* Blue for dark theme - softer, medium-light */
+.blue {
+  color: #41aff8 !important;            /* Light cool text */
+  ; /* steel-blue, calming and clear on dark backgrounds */
+}
+
+.aqua {
+  color: #7DF9FF !important;            /* Light cool text */
+  ; /* steel-blue, calming and clear on dark backgrounds */
+}
+
+/* Amber for dark theme - warm but muted */
+.amber {
+  color: #D8A03F; /* golden amber, warm and rich, less bright */
+}
+
+.yellow {
+  color: #E3C46B; /* soft, warm yellow that's bright and readable on dark backgrounds */
+}
+
+
+/* Green for dark theme - vibrant but smooth */
+.green {
+  color: #11a759; /* medium sea green, lively yet easy on eyes */
+}
+
+
+
+
 
 
 

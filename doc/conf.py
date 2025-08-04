@@ -49,6 +49,7 @@ extensions = [
               'sphinx.ext.autosectionlabel',
               'myst_parser',
               'sphinx_design'
+              
               ]
 
 myst_enable_extensions = [
