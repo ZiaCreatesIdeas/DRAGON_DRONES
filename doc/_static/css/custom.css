@@ -130,7 +130,7 @@ p {
 .no-visited-color:visited {
   color: #e5e9ee !important;
   /* color: inherit !important; /* Or your preferred color */
-} */
+/* } */
 
 /* USE THIS FOR PALLETTE TESTING: */
 
@@ -146,26 +146,7 @@ p {
 
 /*
 
-.rst-content table.docutils th {
-  background-color: #a5a3a3 !important;  /* Header row color */
-  color: #242324 !important;
-} 
 
-/* Odd Rows */
-.rst-content table.docutils tr:nth-child(odd) {
-  background-color: #e7e3e3 !important;  /* Light gray */
-  color: #222 !important;                 /* Dark text */
-}
-
-/* EVEN rows */
-.rst-content table.docutils tr:nth-child(even) {
-  background-color: #e2dfdf !important;  /* Slightly darker gray */
-}
-
-/* Color of TEXT for table, exempting Header */
-.rst-content table.docutils td {
-  color: #222 !important;  /* Change #222 to any color you want */
-} 
 
 /* Color Cards */
 /* Target both the card container and the immediate inner div for ReadTheDocs theme + Sphinx Design */
@@ -224,12 +205,7 @@ a:visited {
   color: #b99feb !important;  /* purple for visited links */
 }
 
-/* Table to dark mode */
-
-table {
-  background-color: #1e1e1e;
-  color: #d4d4d4;
-}
+/* Aqua highlight text: #7DF9FF */
 
 /* Additional styles for table borders, headers, etc., directly here */
 
@@ -237,34 +213,80 @@ table {
 /* Tables */
 
 .wy-table-responsive table {
-  background-color: #1e1e1e !important; /* Dark background */
-  color: #d4d4d4;            /* Light text */
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #444;    /* subtle border */
+  background-color: #1f2428 !important; /* Dark slate background */
+  color: #7DF9FF !important;            /* Light cool text */
+  border-collapse: collapse !important;
+  width: 100% !important;
+  border: 1px solid #3a4756 !important; /* muted dark border */
 }
 
 .wy-table-responsive table th,
 .wy-table-responsive table td {
-  border: 1px solid #444;    /* cell borders */
-  padding: 8px;
+  border: 1px solid #486988 !important; /* subtle steel blue border */
+  padding: 8px !important;
 }
 
+/* Table Header */
 .wy-table-responsive table thead th {
-  background-color: #2e2e2e !important; /* slightly lighter header bg */
-  color: #ba8418;            /* bright header text */
+  background-color: #3f72af !important; /* strong light blue header */
+  color: #f9be60 !important;            /* very light text */
 }
 
+/* Table Odds */
+.wy-table-responsive table tbody tr:nth-child(odd),
+.wy-table-responsive table tbody tr:nth-child(odd) td {
+  background-color: #27323b !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
+}
+
+/* Table Evens */
 .wy-table-responsive table tbody tr:nth-child(even) {
-  background-color: #2a2a2a !important; /* alternate row color */
+  background-color: #2e4050 !important; /* slightly lighter navy */
+  color: #cbd6e6 !important;
 }
 
-.wy-table-responsive table tbody tr:hover {
-  background-color: #3a3a3a !important; /* row hover */
+/* Table Hover */
+.wy-table-responsive table tbody tr:hover td {
+  background-color: #465b6d !important; /* slightly lighter navy */
+  /*background-color: #a5bade !important; /* bright light blue hover */
+  color: #ffffff !important;
+}
+
+/* End Table Prime----- */
+
+/* Table - Secondary */
+
+.my-table-wrapper table {
+  border-collapse: collapse !important;
+  border: 1px solid #486988 !important;
+  width: 100% !important;
+}
+
+.my-table-wrapper th,
+.my-table-wrapper td {
+  border: 1px solid #6d0f1b !important;
+  padding: 8px !important;
+  color: #7DF9FF !important;
+}
+
+.my-table-wrapper thead th {
+  background-color: #7e1125 !important;
+}
+
+.my-table-wrapper tbody tr:nth-child(odd) {
+  background-color: #640a0a !important;
+}
+
+.my-table-wrapper tbody tr:nth-child(even) {
+  background-color: #6e0b0f !important;
+}
+
+.my-table-wrapper tbody tr:hover {
+  background-color: #6c0c2a !important;
+  color: #ffffff !important;
 }
 
 
-/* ----- */
 
 
 

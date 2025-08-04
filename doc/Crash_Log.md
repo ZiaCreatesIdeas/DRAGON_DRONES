@@ -12,52 +12,18 @@ This card has a blue background.
 [Receiver Status: LED Patterns](https://www.expresslrs.org/quick-start/led-status/#receivertransmitter-led-status)  
 ![Connected](https://www.expresslrs.org/assets/images/LED_ON.gif)  
 
-| LED Indication                 | Status                                              |
-|-------------------------------|-----------------------------------------------------|
-| Solid on                      | Connected to a transmitter, or bootloader mode enabled |
-| Double blink then pause       | Binding mode enabled                                |
-| Slow blink 500ms on/off       | Waiting for connection from transmitter            |
-| Triple blink then pause       | Connected to transmitter but mismatched model-match configuration |
-| Medium speed blink 100ms on/off | Radio chip not detected                            |
-| Fast blinking 25ms on/off     | WiFi mode enabled                                  |
+<div class="my-table-wrapper">
 
-| LED Indication           | Status                                 |
-|-------------------------|--------------------------------------|
-| Rainbow fade effect      | Starting Up                          |
-| Green heartbeat         | Web update mode enabled              |
-| Slow blink 500ms on/off | Waiting for connection from transmitter |
-| Red flashing 100ms on/off | Radio chip not detected             |
-| Orange Double blink then pause | Binding mode enabled            |
-| Orange Triple blink then pause | Connected to transmitter but mismatched model-match configuration |
-| Solid single color      | Connected to a transmitter, color indicates packet rate |
-| No Light               | Off or in Bootloader Mode             |
+| LED Indication                                                                          | Status                                              |
+|-----------------------------------------------------------------------------------------|-----------------------------------------------------|
+| ![Connected](https://www.expresslrs.org/assets/images/LED_ON.gif) &nbsp;&nbsp; Solid on | Connected to a transmitter, or bootloader mode enabled |
+| ![Binding](https://www.expresslrs.org/assets/images/LEDSEQ_BINDING_10_10_10_100.gif) &nbsp;&nbsp; Double blink       | Binding mode enabled                                |
+| Slow blink 500ms   | Waiting for connection from transmitter            |
+| Triple blink       | Connected to transmitter but mismatched model-match configuration |
+| Medium speed       | Radio chip not detected                            |
+| Fast blinking      | WiFi mode enabled                                  |
 
-| LED Color      | 2.4GHz Packet rate (Hz) | 915/868MHz Packet rate (Hz) |
-|---------------|-------------------------|----------------------------|
-| Red           | F1000                   | 200                        |
-| Yellow        | F500                    |                            |
-| Yellow-Green  | D500                    | 100 Full                   |
-| Green         | D250                    | 100                        |
-| Cyan          | 333 Full                |                            |
-| Light Blue    | 500                     | 50                         |
-| Blue          | 250                     | 25                         |
-| Blue-Purple   | 150                     |                            |
-| Purple        | 100 Full                | D50                        |
-| Magenta       | 50                      |                            |
-
-
-| LED Color      | 2.4GHz Packet rate (Hz) | 915/868MHz Packet rate (Hz) |
-|---------------|-------------------------|----------------------------|
-| Red           | F1000                   | 200                        |
-| Yellow        | F500                    |                            |
-| Yellow-Green  | D500                    | 100 Full                   |
-| Green         | D250                    | 100                        |
-| Cyan          | 333 Full                |                            |
-| Light Blue    | 500                     | 50                         |
-| Blue          | 250                     | 25                         |
-| Blue-Purple   | 150                     |                            |
-| Purple        | 100 Full                | D50                        |
-| Magenta       | 50                      |                            |
+</div>
 
 
 2. Second item
