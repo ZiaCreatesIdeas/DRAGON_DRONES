@@ -1,6 +1,10 @@
 # TEST
-:::{card} My Card Title
-:class: my-custom-card
+# Example with Card and Custom Background
 
-This is the content inside the card.
+:::{card}
+:class-card: my-blue-bg
+
+This is a custom background card.
 :::
+
+

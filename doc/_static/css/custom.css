@@ -108,7 +108,7 @@ a:link {
 
 a:visited {
     /* color: #aaccff !important; */
-    color: #ab59cc !important;
+    color: #d0f225 !important;
 } 
 
 /* Underline matches default color */
@@ -122,7 +122,6 @@ p {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-
 
 
 
@@ -144,6 +143,9 @@ p {
 /* Unable to effect Odd row to be anything other then white */
 
 /* Header row COLOR and Header TEXT color */
+
+/*
+
 .rst-content table.docutils th {
   background-color: #a5a3a3 !important;  /* Header row color */
   color: #242324 !important;
@@ -201,6 +203,68 @@ p {
       /* inset 5px 5px 10px #0c6317 */ /* inner green glow */
   
 }
+
+/* Normal link color */
+a {
+  color: #1e90ff;  /* example: DodgerBlue */
+}
+
+/* Link color on hover */
+a:hover,
+a:focus {
+  color: #eda663;  /* lighter blue on hover */
+}
+
+/* Visited link color */
+a:visited {
+  color: #b597ee !important;  /* example: a purple shade */
+}
+
+.wy-nav-content a:visited {
+  color: #b99feb !important;  /* purple for visited links */
+}
+
+/* Table to dark mode */
+
+table {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* Additional styles for table borders, headers, etc., directly here */
+
+
+/* Tables */
+
+.wy-table-responsive table {
+  background-color: #1e1e1e !important; /* Dark background */
+  color: #d4d4d4;            /* Light text */
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #444;    /* subtle border */
+}
+
+.wy-table-responsive table th,
+.wy-table-responsive table td {
+  border: 1px solid #444;    /* cell borders */
+  padding: 8px;
+}
+
+.wy-table-responsive table thead th {
+  background-color: #2e2e2e !important; /* slightly lighter header bg */
+  color: #ba8418;            /* bright header text */
+}
+
+.wy-table-responsive table tbody tr:nth-child(even) {
+  background-color: #2a2a2a !important; /* alternate row color */
+}
+
+.wy-table-responsive table tbody tr:hover {
+  background-color: #3a3a3a !important; /* row hover */
+}
+
+
+/* ----- */
 
 
 
