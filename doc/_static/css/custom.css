@@ -45,10 +45,6 @@ body,
 
 /* Color Picker for Markdown */
 
-/* .wy-side-scroll {
-  overflow-x: visible !important;  
-  background-color: #04202d !important; 
-} */
 
 .wy-side-scroll {
   overflow-x: visible !important;  /* Prevent inner scrolling from cropping */
@@ -193,11 +189,17 @@ a:visited {
   padding: 0;
 }
 
+/* --- Background Lines --- */
+
+.bg-highlight {
+  background-color: #04202d; /* deep teal */
+  color: #ffffff;            /* white text for contrast */
+  padding: 0.5em;
+  border-radius: 6px;
+}
 
 
-
-
-
+/* --- End of Lines --- */
 
 
 
@@ -290,6 +292,16 @@ a:visited {
   color: #ffffff !important;
 }
 
+/* Table - Wrap */
+/* This did not work */
+.wrap-table td {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+
+
+/* -- End Table Wrap -- */
+
 /* End Secondary Color */
 
 /* Colors for individual spans of text */
@@ -317,30 +329,21 @@ a:visited {
 .green {
   color: #11a759; /* medium sea green, lively yet easy on eyes */
 }
+
 /* ------------ End - Colors for spans of text */
 
-/* Admonitions */
-/* Admonition custom-blue */
-.admonition.custom-blue {
-  background-color: #2C3E50 !important; /* dark blue accent */
-  border: 1px solid #4891C2 !important; /* matching blue border */
-  color: #E0E6F2 !important; /* light text for readability */
-  padding: 1em !important;
-  border-radius: 8px !important; /* adds rounded corners */
-}
 
-
-/* Custom Cards */
-
+/* ------- CUSTOM CARDS ---------- */
+/* 
 :root {
   --sd-color-primary: #27b41d;               /* main card bg */
-  --sd-color-primary-text: #ffffff;          /* card text */
+  /* --sd-color-primary-text: #ffffff;          card text */
   /* change other colors if needed */
-}
+/* } */ 
 
 
 /* 2nd */
-
+/* 
 .sd-card.darkblue-card,
 .sd-card.sd-sphinx-override.darkblue-card,
 .sd-card.sd-sphinx-override.sd-mb-3.sd-shadow-sm.docutils.darkblue-card {
@@ -356,7 +359,7 @@ a:visited {
 .sd-card.sd-sphinx-override.darkblue-card a {
   color: #7ecfff !important;
   text-decoration: underline !important;
-}
+} */
 
 
 /* Color Cards */
@@ -366,12 +369,12 @@ a:visited {
 
 /* Custom style for MyST card blocks */
 /* This sets the overall card appearance */
-
+/* 
 .sd-card {
-  border: 1px solid #c22121;
-  border-radius: 8px;
+  border: 1px solid #2187c2;
+  border-radius: 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* This sets the background color and padding for the content area */
 
@@ -389,46 +392,94 @@ a:visited {
   
   
 /*} */
-
+/* 
 body .sd-card.sd-sphinx-override.sd-mb-3.sd-shadow-sm.docutils {
   color: #e7eaf6 !important;
-  border-radius: 10px !important;
-  background-color: #112040 !important; /* your dark blue */
-  border: 2px solid #22618b;
+  border-radius: 0px !important;
+  background-color: #112040 !important; 
+  border: 1px solid #41aff8;
   box-shadow:
-      5px 5px 8px 2px #013212,    /* bright green glow */
-      5px 7px 15px 1px #7661dc !important;    /* softer green halo */ 
+      5px 5px 8px 2px #013212,    bright green glow
+      5px 7px 15px 1px #7661dc !important;    softer green halo 
   
-  }
+  } */
 
-.sd-card.darkblue-card {
-  color: #e02020  !important;
-  border-radius: 1px !important;
-  background-color: #2980b9; /* Your desired background color */
-  border: 1px solid #41aff8; /* Your desired border style */
+/* .sd-card.darkblue-card { */
+  /* color: #e02020  !important; */
+  /* border-radius: 1px !important; */
+  /* background-color: #2980b9; Your desired background color */
+  /* border: 1px solid #41aff8; Your desired border style */
  /* box-shadow: 0 4px 12px rgba(140, 165, 236, 0.5) !important; /* Does not work w/o !important */
   /* box-shadow: 0px 0px 0px 20px rgb(5, 118, 45) !important;  */
   /* A slightly stronger shadow */
   /* Add any other styles you want to override */
-    box-shadow:
-      5px 5px 8px 2px #013212,    /* bright green glow */
-      5px 7px 15px 1px #7661dc !important;    /* softer green halo */ 
+    /* box-shadow: */
+      /* 5px 5px 8px 2px #013212,     */
+      /* 5px 7px 15px 1px #7661dc !important;    */
       /* inset 5px 5px 10px #0c6317 */ /* inner green glow */
+  
+/* } */
+
+.zia-dark-blue {
+  background-color: #023f08 !important; 
+  color: rgb(157, 242, 183) !important;              
+}
+
+.my-dark-blue {
+  --sd-color-card-background: #115ca7 !important; /* dark blue background */
+  --sd-color-card-text: white !important;          /* text color for contrast */
+}
+
+
+/* pplx style using ID selector, highest specificity */
+
+
+/* Style the outer div with a unique ID */
+#special-card-container {
+  padding: 20px;
+  background-color: #062e4169;
+  border: 2px solid #9da7ed;
+  border-radius: 8px;
+}
+
+/* Style the entire card via the class set with :class-card: */
+body .zia-blue {
+  padding: 10px;
+  margin: 15px !important;
+  background-color: #062e4190 !important; 
+  color: rgb(170, 175, 240) !important;
+  border: 2px solid #6754ce !important;
+  border-radius: 10px !important;
+  box-shadow:
+      /* 5px 5px 8px 2px #013212,     */
+      /* 5px 7px 15px 1px #7661dc !important;    */
+      8px 5px 10px 1px #41419090 !important; /* single 
+      /* inset 5px 5px 10px #0c6317  */
   
 }
 
-:root {
-  --sd-color-primary: #b88017;               /* main card bg */
-  --sd-color-primary-text: #4b3387;          /* card text */
-  /* change other colors if needed */
+/* Style only the card's header */
+.custom-card-header {
+  background-color: #4045825e !important;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 8px;
 }
 
-
+/* Uses ID Selector #, not classes */
+/* Vid Link */
+#Vid-Link {
+  padding: 20px;
+  background-color: #2980b9;
+  border: 2px solid #41aff8;
+  border-radius: 8px;
+}
 
 /* ---------- End Cards ---------- */
 
 
-/* TIP admonition */
+/* -- TIP admonition -- */
 .admonition.tip {
   background-color: #233D4D;
   border-left: 5px solid #4AE8AE;
@@ -459,6 +510,14 @@ body .sd-card.sd-sphinx-override.sd-mb-3.sd-shadow-sm.docutils {
   font-size: 1.2em !important;
 }
 
+/* Admonition custom-blue */
+.admonition.custom-blue {
+  background-color: #2C3E50 !important; /* dark blue accent */
+  border: 1px solid #4891C2 !important; /* matching blue border */
+  color: #E0E6F2 !important; /* light text for readability */
+  padding: 1em !important;
+  border-radius: 8px !important; /* adds rounded corners */
+}
 
 
 

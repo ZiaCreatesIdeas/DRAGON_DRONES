@@ -4,13 +4,9 @@
 
 
 
-
-
 <div class="admonition note" name="html-admonition" style="background: #04202d; padding: 10px; text-align: left;">
 1. On <span class="blue">Radio</span>: Long press:'Sys' > Tools => Express LRS
 </div>
-
-bk
 
 1. Find and Select <span class="blue">[Bind].</span>
 
@@ -39,7 +35,7 @@ bk
 Receiver will enter WIFI state after one minute.
 :::
 
-![Bind Connect](Images/Receiver/Bind-Connect-C.png)  
+![Bind Connect](Images/Receiver/Bind-Connect-C.png)
 
 <br>
 
@@ -47,13 +43,22 @@ Receiver will enter WIFI state after one minute.
 
 <br>
 
+<div class="bg-highlight">
 - "C" in the upper right hand corner denotes a successful BIND.
+</div>
+<br>
 
 ::: {note}
 :class: custom-blue
 
 Audio: "Telemetry Recovered"
 :::
+
+::: {note}
+
+Audio: "Telemetry Recovered"
+:::
+
 
 :::{tip}
 This is a tip admonition.
