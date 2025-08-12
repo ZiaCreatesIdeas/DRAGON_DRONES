@@ -192,10 +192,12 @@ a:visited {
 /* --- Background Lines --- */
 
 .bg-highlight {
-  background-color: #04202d; /* deep teal */
-  color: #ffffff;            /* white text for contrast */
-  padding: 0.5em;
+  background-color: #04202d;
+  color: #9fc3df;
   border-radius: 6px;
+  line-height: 8.4;       /* increase vertical balance */
+  align-items: center;
+  padding: 0.10em 0em 0.2em 0.2em;
 }
 
 
@@ -474,6 +476,13 @@ body .zia-blue {
   background-color: #2980b9;
   border: 2px solid #41aff8;
   border-radius: 8px;
+}
+
+.bg-dark {
+  background-color: #04202d; /* deep teal */
+  color: #ffffff;            /* white text for contrast */
+  padding: 0.5em;
+  border-radius: 6px;
 }
 
 /* ---------- End Cards ---------- */

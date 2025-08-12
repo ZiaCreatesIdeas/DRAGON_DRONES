@@ -219,3 +219,24 @@ https://www.youtube.com/watch?v=KFtfhH3JsBc
 
 </div>
 :::
+
+
+::: {note}
+:class: custom-blue
+
+
+:::
+
+::: {note}
+
+Audio: "Telemetry Recovered"
+:::
+
+
+:::{tip}
+This is a tip admonition.
+:::
+
+:::{warning}
+This is a warning admonition.
+:::

@@ -20,6 +20,7 @@ Study Drones
    3d_Printing.md
    WildFire_Use_Cases.md
    Mapping.md
+   Cad.md
    Resources.md
    Credit.md
    Test.md
