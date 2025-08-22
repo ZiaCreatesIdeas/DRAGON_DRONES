@@ -78,5 +78,51 @@ If Binding is not initiated within one minute, receiver will enter WIFI mode [Fa
 </div>
 :::
 
+---
 
-## Header
+## RSSI
+
+[RSSI (Pawel Spychalski FPV University)](https://youtu.be/XyIDTHIFjV0)
+
+<div class="admonition note" name="html-admonition" style="background: #04202d; padding: 10px; text-align: left;">
+
+  - R: Received
+  - S: Signal
+  - S: Strength
+  - I: Indication
+
+</div>
+
+SNR
+
+![Snr](./Images/Receiver/SNR-Signal_To_Noise.png)
+
+<br>
+
+Link Quality (LQ)
+
+![Link Quality](./Images/Receiver/Link_Quality.png)
+... and decoded. It is a ratio.  
+
+<br>
+
+[RSSI Find Model Trick - Painless 360](https://youtu.be/diuxIwViSnY?t=179)
+
+Technique:
+
+    - With the model still powered on (battery connected), walk in the direction you last saw it.
+
+    - Access the telemetry or sensor menu on your radio to check RSSI values.
+
+    - As you walk closer to the model, the RSSI number will increase.
+
+    - Every so often, stop and sweep your transmitter in a wide arc (180°) while watching the RSSI   
+      reading. This helps identify the direction of strongest signal—your transmitter’s antenna is most sensitive on the sides, not the tip.
+
+    - Continue walking in the direction where RSSI is strongest and keep repeating the process.
+
+    - As you approach the model, the RSSI value will increase much more rapidly—when nearing 85 or higher, you are within a few meters.
+
+Final Search: When you see very high RSSI, stop and sweep your transmitter in a full circle to fine-tune the exact direction.
+
+
