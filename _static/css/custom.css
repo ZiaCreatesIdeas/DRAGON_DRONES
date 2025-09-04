@@ -1,0 +1,545 @@
+body,
+.wy-nav-content {
+  background-color: #141414 !important; /* black background */
+  /* background-color: #8f8a8a !important; */
+  color: #f0f6f2 !important; /* white text for contrast */
+} 
+
+/* This is where the MAIN Vertical Strip of Content is styled */
+.rst-content {
+  background-color: #141414 !important;
+  /* background-color:#4c4b4b !important; */
+  /* background-color: #8f8a8a !important; */
+  color: #fff !important;
+  /* padding: 0; */
+}
+
+/* Increase sidebar width if needed -- This messed up my index.rst spacing -- not recommended */
+/* .wy-nav-side {
+  width: 250px !important;  /* Default is about 220-230px, increase as needed */
+ /* overflow-x: visible !important; /* Prevent horizontal cropping */
+ /* padding-left: 120px !important;  /* Add some left padding */
+ /* background-color: #181918 !important;  /* Black background */
+/*} 
+
+*/
+
+/* The SEARCH Bar area */
+.wy-side-nav-search {
+  display: block;
+  width: 300px;
+  padding: .809em;
+  margin-bottom: .809em;
+  z-index: 200;
+  background-color: #2980b9;
+  /* background-color: #b629b9; */
+  text-align: center;
+  color: #fcfcfc;
+}
+
+/* Ensure sidebar content is not clipped */
+.wy-nav-content {
+  overflow-x: visible !important;
+  /* background-color: #14c452 !important; black background */
+}
+
+/* Color Picker for Markdown */
+
+
+.wy-side-scroll {
+  overflow-x: visible !important;  /* Prevent inner scrolling from cropping */
+  background-color: #063043 !important; 
+
+}
+
+
+.rst-footer-buttons .btn.btn-neutral[accesskey="n"],
+.rst-footer-buttons .btn.btn-neutral[accesskey="p"] {
+  background-color: #052737 !important;
+  color: #9ca6b0 !important;
+}
+
+
+/* Target the expand/collapse ICONS in the RTD theme sidebar */
+.wy-menu-vertical .toctree-expand {
+  color: rgb(127, 179, 243) !important;        /* Change icon color of '+' */
+  font-size: 1.5em !important;  /* Make icons larger */
+  font-weight: bold !important; /* Make icons bold */
+  display: inline !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  padding-left: 20px !important;  /* Add some left padding */
+  padding-right: 10px !important;  /* Add some right padding */
+}
+
+/* Level 2 submenu background and link color */
+.wy-menu-vertical .toctree-l2 > a {
+  background-color: #222 !important; /* Change to your desired color */
+  color: #fff !important;            /* Change to your desired text color */
+}
+
+/* Level 3 submenu background and link color */
+.wy-menu-vertical .toctree-l3 > a {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+/* Level 4 submenu background and link color */
+.wy-menu-vertical .toctree-l4 > a {
+  background-color: #444 !important;
+  color: #fff !important;
+}
+
+body.wy-nav-shift .wy-nav-content {
+  margin-left: 1260px !important; /* match your sidebar width */
+}
+
+/* Optional: Adjust link colors for better contrast */
+/* a {
+    color: #7DF9FF !important;
+} */
+
+
+a:link {
+  color: #ebeff3; /* default blue */
+}
+
+a:visited {
+    /* color: #aaccff !important; */
+    color: #d0f225 !important;
+} 
+
+/* Underline matches default color */
+a {
+  /* color: #baee0d; CANNOT specify color of underline directly - that I can tell. */
+  text-decoration: underline;
+}
+
+
+p {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+
+/* --- Your special link rule (add near the end) --- */
+/* 
+.no-visited-color:visited {
+  color: #e5e9ee !important;
+  /* color: inherit !important; /* Or your preferred color */
+/* } */
+
+/* USE THIS FOR PALLETTE TESTING: */
+
+/* tr {
+  background-color: #ceb519 !important;
+  color: #30282f !important;
+} */
+
+
+/* Unable to effect Odd row to be anything other then white */
+
+/* Header row COLOR and Header TEXT color */
+
+/*
+
+
+
+
+
+/* Normal link color */
+a {
+  color: #1e90ff;  /* example: DodgerBlue */
+}
+
+/* Link text color on hover */
+a:hover,
+a:focus {
+  color: #eda663;  /* lighter blue on hover */
+}
+
+/* Visited link color */
+a:visited {
+  color: #b597ee !important;  /* example: a purple shade */
+}
+
+.wy-nav-content a:visited {
+  color: #b99feb !important;  /* purple for visited links */
+}
+
+/* Aqua highlight text: #7DF9FF */
+
+/* -- CODE BLOCKS -- */
+/* Style Parent Code Block */
+.highlight-none.notranslate {
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #041f2b !important;
+  border: 1px solid #083f56 !important; 
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Style Child To Prevent White Aliasing on Rounded Corners */
+.highlight-none.notranslate > .highlight {
+  border-radius: inherit;
+  background-color: transparent !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Background Lines --- */
+
+.bg-highlight {
+  background-color: #04202d;
+  color: #9fc3df;
+  border-radius: 6px;
+  line-height: 8.4;       /* increase vertical balance */
+  align-items: center;
+  padding: 0.10em 0em 0.2em 0.2em;
+}
+
+
+/* --- End of Lines --- */
+
+
+
+
+/* Additional styles for table borders, headers, etc., directly here */
+
+
+/* Tables */
+
+.wy-table-responsive table {
+  background-color: #1f2428 !important; /* Dark slate background */
+  color: #7DF9FF !important;            /* Light cool text */
+  border-collapse: collapse !important;
+  width: 100% !important;
+  border: 1px solid #3a4756 !important; /* muted dark border */
+}
+
+.wy-table-responsive table th,
+.wy-table-responsive table td {
+  border: 1px solid #6483a1 !important; /* subtle steel blue border */
+  padding: 8px !important;
+}
+
+/* Table Header */
+.wy-table-responsive table thead th {
+  background-color: #2a4c74 !important; /* strong light blue header */
+  color: #7DF9FF !important;            /* very light text */
+}
+
+/* Table Odds */
+.wy-table-responsive table tbody tr:nth-child(odd),
+.wy-table-responsive table tbody tr:nth-child(odd) td {
+  background-color: #27323b !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
+}
+
+/* Table Evens */
+.wy-table-responsive table tbody tr:nth-child(even),
+.wy-table-responsive table tbody tr:nth-child(even) td {
+  background-color: #374c5d !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
+}
+
+/* Table Hover */
+.wy-table-responsive table tbody tr:hover td {
+  background-color: #465b6d !important; /* slightly lighter navy */
+  /*background-color: #a5bade !important; /* bright light blue hover */
+  color: #ffffff !important;
+}
+
+/* End Table Prime----- */
+
+/* Table - Secondary with .wy-table-responsive colors */
+
+.my-table-wrapper table {
+  background-color: #1f2428 !important; /* Dark slate background */
+  color: #d1ff7d !important;            /* Light cool text */
+  border-collapse: collapse !important;
+  border: 1px solid #3a4756 !important; /* muted dark border */
+  width: 100% !important;
+}
+
+.my-table-wrapper th,
+.my-table-wrapper td {
+  border: 1px solid #486988 !important; /* subtle steel blue border */
+  padding: 8px !important;
+  color: #7DF9FF !important;
+}
+
+.my-table-wrapper table thead th {
+  background-color: #4f311c !important; /* strong light blue header */
+  color: #d6a00b !important;            /* very light text */
+}
+
+.my-table-wrapper table tbody tr:nth-child(odd),
+.my-table-wrapper table tbody tr:nth-child(odd) td {
+  background-color: #27323b !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
+}
+
+.my-table-wrapper table tbody tr:nth-child(even),
+.my-table-wrapper table tbody tr:nth-child(even) td {
+  background-color: #374c5d !important; /* dark navy alternate row */
+  color: #7DF9FF !important;
+}
+
+.my-table-wrapper table tbody tr:hover,
+.my-table-wrapper table tbody tr:hover td {
+  background-color: #4f6f88 !important; /* slightly lighter navy */
+  color: #ffffff !important;
+}
+
+/* Table - Wrap */
+/* This did not work */
+.wrap-table td {
+  white-space: normal !important;
+  overflow-wrap: break-word;
+}
+
+
+/* -- End Table Wrap -- */
+
+/* End Secondary Color */
+
+/* Colors for individual spans of text */
+/* Blue for dark theme - softer, medium-light */
+.blue {
+  color: #41aff8 !important;            /* Light cool text */
+  ; /* steel-blue, calming and clear on dark backgrounds */
+}
+
+.aqua {
+  color: #7DF9FF !important;            /* Light cool text */
+  ; /* steel-blue, calming and clear on dark backgrounds */
+}
+
+/* Amber for dark theme - warm but muted */
+.amber {
+  color: #D8A03F; /* golden amber, warm and rich, less bright */
+}
+
+.yellow {
+  color: #E3C46B; /* soft, warm yellow that's bright and readable on dark backgrounds */
+}
+
+/* Green for dark theme - vibrant but smooth */
+.green {
+  color: #11a759; /* medium sea green, lively yet easy on eyes */
+}
+
+/* ------------ End - Colors for spans of text */
+
+
+/* ------- CUSTOM CARDS ---------- */
+/* 
+:root {
+  --sd-color-primary: #27b41d;               /* main card bg */
+  /* --sd-color-primary-text: #ffffff;          card text */
+  /* change other colors if needed */
+/* } */ 
+
+
+/* 2nd */
+/* 
+.sd-card.darkblue-card,
+.sd-card.sd-sphinx-override.darkblue-card,
+.sd-card.sd-sphinx-override.sd-mb-3.sd-shadow-sm.docutils.darkblue-card {
+  background: #112040 !important;
+  color: #e7eaf6 !important;
+  border-left: 4px solid #3498db !important;
+  border-radius: 1px !important;
+  padding: 1.2em 1.5em !important;
+  margin: 1.5em 0 !important;
+  box-shadow: 0 2px 12px rgba(20,40,80,0.25) !important;
+}
+.sd-card.darkblue-card a,
+.sd-card.sd-sphinx-override.darkblue-card a {
+  color: #7ecfff !important;
+  text-decoration: underline !important;
+} */
+
+
+/* Color Cards */
+/* Target both the card container and the immediate inner div for ReadTheDocs theme + Sphinx Design */
+
+/* Target card content inside .custom-card */
+
+/* Custom style for MyST card blocks */
+/* This sets the overall card appearance */
+/* 
+.sd-card {
+  border: 1px solid #2187c2;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+
+/* This sets the background color and padding for the content area */
+
+
+/*
+ * The selectors can be written together without spaces,
+ * which means all classes must be on the same element.
+ */
+ /* .sd-card.sd-sphinx-override.sd-mb-3.sd-shadow-sm.docutils { */
+  /* border: 1px solid #41aff8; /* Your desired border style */
+  /* box-shadow: 0 4px 12px rgba(140, 165, 236, 0.5) !important; /* Does not work w/o !important */
+  /* box-shadow: 0px 0px 0px 20px rgb(5, 118, 45) !important;  */
+  /* A slightly stronger shadow */
+  /* Add any other styles you want to override */
+  
+  
+/*} */
+/* 
+body .sd-card.sd-sphinx-override.sd-mb-3.sd-shadow-sm.docutils {
+  color: #e7eaf6 !important;
+  border-radius: 0px !important;
+  background-color: #112040 !important; 
+  border: 1px solid #41aff8;
+  box-shadow:
+      5px 5px 8px 2px #013212,    bright green glow
+      5px 7px 15px 1px #7661dc !important;    softer green halo 
+  
+  } */
+
+/* .sd-card.darkblue-card { */
+  /* color: #e02020  !important; */
+  /* border-radius: 1px !important; */
+  /* background-color: #2980b9; Your desired background color */
+  /* border: 1px solid #41aff8; Your desired border style */
+ /* box-shadow: 0 4px 12px rgba(140, 165, 236, 0.5) !important; /* Does not work w/o !important */
+  /* box-shadow: 0px 0px 0px 20px rgb(5, 118, 45) !important;  */
+  /* A slightly stronger shadow */
+  /* Add any other styles you want to override */
+    /* box-shadow: */
+      /* 5px 5px 8px 2px #013212,     */
+      /* 5px 7px 15px 1px #7661dc !important;    */
+      /* inset 5px 5px 10px #0c6317 */ /* inner green glow */
+  
+/* } */
+
+.zia-dark-blue {
+  background-color: #023f08 !important; 
+  color: rgb(157, 242, 183) !important;              
+}
+
+.my-dark-blue {
+  --sd-color-card-background: #115ca7 !important; /* dark blue background */
+  --sd-color-card-text: white !important;          /* text color for contrast */
+}
+
+
+/* pplx style using ID selector, highest specificity */
+
+
+/* Style the outer div with a unique ID */
+#special-card-container {
+  padding: 20px;
+  background-color: #062e4169;
+  border: 2px solid #9da7ed;
+  border-radius: 8px;
+}
+
+/* Style the entire card via the class set with :class-card: */
+body .zia-blue {
+  padding: 10px;
+  margin: 15px !important;
+  background-color: #062e4190 !important; 
+  color: rgb(170, 175, 240) !important;
+  border: 2px solid #6754ce !important;
+  border-radius: 10px !important;
+  box-shadow:
+      /* 5px 5px 8px 2px #013212,     */
+      /* 5px 7px 15px 1px #7661dc !important;    */
+      8px 5px 10px 1px #41419090 !important; /* single 
+      /* inset 5px 5px 10px #0c6317  */
+  
+}
+
+/* Style only the card's header */
+.custom-card-header {
+  background-color: #4045825e !important;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 8px;
+}
+
+/* Uses ID Selector #, not classes */
+/* Vid Link */
+#Vid-Link {
+  padding: 20px;
+  background-color: #2980b9;
+  border: 2px solid #41aff8;
+  border-radius: 8px;
+}
+
+.bg-dark {
+  background-color: #04202d; /* deep teal */
+  color: #ffffff;            /* white text for contrast */
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+/* ---------- End Cards ---------- */
+
+
+/* -- TIP admonition -- */
+.admonition.tip {
+  background-color: #233D4D;
+  border-left: 5px solid #4AE8AE;
+  color: #E6FFF6;
+}
+
+/* The TIP title bar */
+.admonition.tip .admonition-title {
+  background: #144232;
+  color: #97F2D6;
+}
+
+/* WARNING admonition */
+.admonition.warning {
+  background-color: #45260A;
+  border-left: 5px solid #FFB341;
+  color: #FFE9C7;
+}
+
+/* WARNING title bar */
+.admonition.warning .admonition-title {
+  background: #8A6D2F;
+  color: #FFF8D6;
+}
+
+/* .note - increases size of text */
+.admonition.note {
+  font-size: 1.2em !important;
+}
+
+/* Admonition custom-blue */
+.admonition.custom-blue {
+  background-color: #2C3E50 !important; /* dark blue accent */
+  border: 1px solid #4891C2 !important; /* matching blue border */
+  color: #E0E6F2 !important; /* light text for readability */
+  padding: 1em !important;
+  border-radius: 8px !important; /* adds rounded corners */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
