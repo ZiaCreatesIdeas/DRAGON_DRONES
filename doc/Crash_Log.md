@@ -125,4 +125,14 @@ Technique:
 
 Final Search: When you see very high RSSI, stop and sweep your transmitter in a full circle to fine-tune the exact direction.
 
+---
 
+## Battery Packs
+
+- 21700
+
+![Diagram](./Images/Battery_Pack/Diagram-21700.png)
+
+<bt>
+
+![Diagram Close Up](./Images/Battery_Pack/Diagram_Battery_Pack_CU.png)

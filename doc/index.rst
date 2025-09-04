@@ -17,6 +17,7 @@ Study Drones
 
    Hardware.md
    Crash_Log.md
+   Vtol.md
    3d_Printing.md
    WildFire_Use_Cases.md
    Mapping.md
